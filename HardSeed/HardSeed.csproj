@@ -1,0 +1,37 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="bin\build_4_win.rar" />
+    <None Include="bin\build_4_win\cygcom_err-2.dll" />
+    <None Include="bin\build_4_win\cygcrypto-1.0.0.dll" />
+    <None Include="bin\build_4_win\cygcurl-4.dll" />
+    <None Include="bin\build_4_win\cyggcc_s-1.dll" />
+    <None Include="bin\build_4_win\cyggssapi_krb5-2.dll" />
+    <None Include="bin\build_4_win\cygiconv-2.dll" />
+    <None Include="bin\build_4_win\cygidn-11.dll" />
+    <None Include="bin\build_4_win\cygintl-8.dll" />
+    <None Include="bin\build_4_win\cygk5crypto-3.dll" />
+    <None Include="bin\build_4_win\cygkrb5-3.dll" />
+    <None Include="bin\build_4_win\cygkrb5support-0.dll" />
+    <None Include="bin\build_4_win\cyglber-2-4-2.dll" />
+    <None Include="bin\build_4_win\cygldap-2-4-2.dll" />
+    <None Include="bin\build_4_win\cygnghttp2-14.dll" />
+    <None Include="bin\build_4_win\cygsasl2-3.dll" />
+    <None Include="bin\build_4_win\cygssh2-1.dll" />
+    <None Include="bin\build_4_win\cygssl-1.0.0.dll" />
+    <None Include="bin\build_4_win\cygstdc++-6.dll" />
+    <None Include="bin\build_4_win\cygwin1.dll" />
+    <None Include="bin\build_4_win\cygz.dll" />
+    <None Include="bin\build_4_win\hardseed.exe" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="bin\Debug\netcoreapp2.0\" />
+  </ItemGroup>
+
+</Project>
